@@ -32,4 +32,4 @@ Main shopping basket class that:
   - Applicable discounts
   - Delivery charges
 
-## Usage Example
+
