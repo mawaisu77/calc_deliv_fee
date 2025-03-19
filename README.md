@@ -32,4 +32,21 @@ Main shopping basket class that:
   - Applicable discounts
   - Delivery charges
 
+## Assumptions
+1. Product Codes:
+   - Product codes are unique strings
+   - Product codes are case-sensitive
+   - Only predefined products in the catalogue can be added to basket
+2. Pricing:
+   - All prices are positive numbers
+   - Prices are stored and calculated with 2 decimal places
+3. Special Offers:
+   - Red Widget offer applies to pairs (every 2nd item half price)
+   - Multiple offers can be applied to the same order
+   - Delivery charge is calculated after discounts are applied
+5. Basket:
+   - No limit on quantity of items
+   - Items can be added but not removed
+   - Same product can be added multiple times
+
 
